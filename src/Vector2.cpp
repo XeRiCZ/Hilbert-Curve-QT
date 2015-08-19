@@ -7,7 +7,7 @@ Vector2::Vector2(float _x,float _y) : x(_x),y(_y)
 }*/
 
 Vector2 Vector2::normalize(Vector2 input){
-    // Normalizace dvojdimenzionalniho vektoru
+    // Normalizace dvoudimenzionalniho vektoru
     // Potřebné pro určení směru k dalšímu vektoru
   //  qDebug() << "normalizating : (" << input.x << ";" << input.y << ")";
      float magnitude =abs(sqrt((input.x * input.x) + (input.y * input.y)));
